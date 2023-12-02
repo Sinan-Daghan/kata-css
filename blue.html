@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blue</title>
+</head>
+<body>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+</body>
+
+<style>
+    body {
+        background-color: #3198A8;
+        height: 100vh;
+        margin: 0;
+        display: grid;
+        grid-template: repeat(5, 1vw) / repeat(5, 1vw);
+        gap: 0.3vw;
+        place-content: center;
+    }
+    div {
+        background-color: #257986;
+        border-radius: 50%;
+    }
+    :nth-child(6n+1) {
+        background-color: white;
+    }
+</style>
+</html>
