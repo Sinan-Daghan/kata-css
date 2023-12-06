@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>green-squares</title>
+</head>
+<body>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+</body>
+
+<style>
+    body {
+        background-color: #507A53;
+        display: grid;
+        place-content: center;
+        height: 100vh;
+        display: grid;
+        margin: 0;
+        grid-template: repeat(5, 1vw) / repeat(5, 1vw);
+        gap: 0.3vw;
+    }
+    div {
+        background-color: #406242;
+    }
+    div:nth-of-type(19) {
+        border-radius: 50%;
+        background-color: white;
+    }
+</style>
+</html>
